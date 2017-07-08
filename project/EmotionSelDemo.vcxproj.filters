@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2d9985e7-e369-42d5-9e46-c2e199475e25}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{10aecac0-e32b-4613-b695-8b4c0b135762}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{45e96022-60fe-4832-8926-cbe71a4aa3f0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="CxImage">
+      <UniqueIdentifier>{e18551bf-5a3c-4e37-867b-0e6954825928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmotionSelDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmotionSelDemoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmotionWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximabmp.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximaenc.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximage.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximagif.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximaico.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximainfo.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximalpha.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximalyr.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximapal.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximatran.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximawbmp.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\ximawnd.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImage\xmemfile.cpp">
+      <Filter>CxImage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmotionSelDemo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EmotionSelDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmotionSelDemoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmotionWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\xfile.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximabmp.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximacfg.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximadef.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximage.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximagif.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximaico.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximaiter.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximath.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\ximawbmp.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\xiofile.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImage\xmemfile.h">
+      <Filter>CxImage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EmotionSelDemo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\EmotionSelDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
